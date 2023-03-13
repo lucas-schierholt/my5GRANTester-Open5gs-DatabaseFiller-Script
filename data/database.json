@@ -1,0 +1,12 @@
+{
+    "host": "172.22.0.2:27017",  
+    "database": "open5gs",
+    "collections": [
+      {
+        "collection": "subscribers",
+        "filename": "subscribers.json"
+      }
+    ]
+  }
+
+  
