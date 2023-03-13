@@ -6,7 +6,7 @@
     "access_restriction_data": 32,
     "slice": [
       {
-        "sst": $(SST_INT),
+        "sst": "$(SST_INT)",
         "default_indicator": true,
         "sd": "$(SD)",
         "session": [
