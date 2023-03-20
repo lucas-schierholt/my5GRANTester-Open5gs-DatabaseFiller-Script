@@ -1,5 +1,5 @@
 {
-    "host": "172.22.0.2:27017",  
+    "host": "open5gs-mongodb-svc:27017",  
     "database": "open5gs",
     "collections": [
       {

@@ -17,7 +17,7 @@ metadata:
       spec:
         nodeSelector:
           kubernetes.io/arch: amd64
-          kubernetes.io/hostname: molejo
+          kubernetes.io/hostname: kiss
         containers:
           - name: my5grantester-db-filler
             image: lafschierholt/my5grantester-db-filler
@@ -45,7 +45,7 @@ metadata:
 data:
   database.json: |
     {
-      "host": "172.22.0.2:27017",
+      "host": "open5gs-mongodb-svc:27017",
       "database": "open5gs",
       "collections": [
         {
