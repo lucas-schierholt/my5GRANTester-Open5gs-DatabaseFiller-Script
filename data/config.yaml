@@ -1,9 +1,9 @@
 gnodeb:
   controlif:
-    ip: "0.0.0.0" #ip: "open5gs-my5grantester"
+    ip: "open5gs-my5grantester" #ip: "open5gs-my5grantester"
     port: 9487
   dataif:
-    ip: "0.0.0.0" #ip: "open5gs-my5grantester"
+    ip: "open5gs-my5grantester" #ip: "open5gs-my5grantester"
     port: 2152
   plmnlist:
     mcc: "208"
